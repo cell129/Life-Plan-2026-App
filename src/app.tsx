@@ -24,7 +24,7 @@ const CircularProgress = ({ percentage }) => {
   return (
     <div className="relative w-12 h-12 flex items-center justify-center">
       <svg className="transform -rotate-90 w-12 h-12">
-        ircle
+        <circle
           className="text-slate-700"
           strokeWidth="3"
           stroke="currentColor"
@@ -33,7 +33,7 @@ const CircularProgress = ({ percentage }) => {
           cx="24"
           cy="24"
         />
-        ircle
+        <circle
           className="text-blue-500 transition-all duration-1000 ease-out"
           strokeWidth="3"
           strokeDasharray={circumference}
